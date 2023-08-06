@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/wiki-countries/static/css/main.893b4995.css",
-    "main.js": "/wiki-countries/static/js/main.aad0f0b9.js",
-    "static/media/owl.png": "/wiki-countries/static/media/owl.42c68245962d0bf9ded1.png",
-    "static/media/sun.svg": "/wiki-countries/static/media/sun.6781615aadd523cb935dfd624eb2e137.svg",
-    "index.html": "/wiki-countries/index.html",
-    "static/media/moon.svg": "/wiki-countries/static/media/moon.35ee80a7887df1a1375ca32578dab896.svg",
-    "main.893b4995.css.map": "/wiki-countries/static/css/main.893b4995.css.map",
-    "main.aad0f0b9.js.map": "/wiki-countries/static/js/main.aad0f0b9.js.map"
+    "main.css": "/wiki-countries-ts/static/css/main.19df1dc1.css",
+    "main.js": "/wiki-countries-ts/static/js/main.97b94d0d.js",
+    "static/media/owl.png": "/wiki-countries-ts/static/media/owl.42c68245962d0bf9ded1.png",
+    "static/media/sun.svg": "/wiki-countries-ts/static/media/sun.6781615aadd523cb935dfd624eb2e137.svg",
+    "index.html": "/wiki-countries-ts/index.html",
+    "static/media/moon.svg": "/wiki-countries-ts/static/media/moon.35ee80a7887df1a1375ca32578dab896.svg",
+    "main.19df1dc1.css.map": "/wiki-countries-ts/static/css/main.19df1dc1.css.map",
+    "main.97b94d0d.js.map": "/wiki-countries-ts/static/js/main.97b94d0d.js.map"
   },
   "entrypoints": [
-    "static/css/main.893b4995.css",
-    "static/js/main.aad0f0b9.js"
+    "static/css/main.19df1dc1.css",
+    "static/js/main.97b94d0d.js"
   ]
 }
