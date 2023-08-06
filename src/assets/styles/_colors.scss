@@ -1,0 +1,15 @@
+body[data-theme='dark'] {
+	--color-text: hsl(0, 0%, 100%);
+	--color-bg: hsl(207, 26%, 17%);
+	--color-ui: hsl(209, 23%, 22%);
+	--dark-gray: hsl(0, 0%, 52%);
+	--shadow: 0px 2px 10px -8px #000000;
+}
+
+body[data-theme='light'] {
+	--color-text: hsl(200, 15%, 8%);
+	--color-bg: hsl(0, 0%, 98%);
+	--color-ui: hsl(0, 0%, 100%);
+	--dark-gray: hsl(0, 0%, 52%);
+	--shadow: 0px 2px 10px -2px #cccccc;
+}

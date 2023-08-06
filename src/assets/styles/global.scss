@@ -1,0 +1,9 @@
+@use './_normalize';
+@use './_colors';
+@use './_font';
+
+body {
+	background: var(--color-bg);
+	color: var(--color-text);
+	transition: background 0.4s;
+}

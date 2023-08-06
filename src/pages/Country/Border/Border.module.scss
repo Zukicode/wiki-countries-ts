@@ -1,0 +1,38 @@
+.border {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+	@media (max-width: 500px) {
+		flex-direction: column;
+		align-items: baseline;
+		gap: 10px;
+	}
+
+	p {
+		font-weight: 600;
+		font-size: 18px;
+	}
+
+	.listBorder {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+
+		span {
+			padding: 5px 30px;
+			background: var(--color-ui);
+			box-shadow: var(--shadow);
+			font-size: 16px;
+			border-radius: 4px;
+			cursor: pointer;
+			transition: all 0.4s ease-in-out;
+
+			&:hover {
+				opacity: 0.5;
+			}
+		}
+	}
+}

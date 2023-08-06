@@ -1,0 +1,89 @@
+.header {
+	width: 100%;
+	padding: 25px 0px;
+	background: var(--color-ui);
+	box-shadow: var(--shadow);
+	transition: all 0.4s;
+
+	> div {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.logo {
+			cursor: pointer;
+
+			h1 {
+				font-size: 26px;
+				color: var(--color-text);
+
+				@media (max-width: 500px) {
+					font-size: 21px;
+				}
+
+				@media (max-width: 450px) {
+					font-size: 18px;
+				}
+			}
+		}
+
+		.theme {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			cursor: pointer;
+			transition: opacity 0.4s ease-in-out;
+
+			&:hover {
+				opacity: 0.5;
+			}
+
+			@media (max-width: 450px) {
+				gap: 5px;
+			}
+
+			.icon {
+				width: 25px;
+				height: 25px;
+
+				@media (max-width: 450px) {
+					width: 20px;
+					height: 20px;
+				}
+
+				@media (max-width: 349px) {
+					width: 35px;
+					height: 35px;
+				}
+
+				img {
+					width: 25px;
+					height: 25px;
+
+					@media (max-width: 450px) {
+						width: 20px;
+						height: 20px;
+					}
+
+					@media (max-width: 349px) {
+						width: 35px;
+						height: 35px;
+					}
+				}
+			}
+
+			p {
+				font-size: 17px;
+				font-weight: 600;
+
+				@media (max-width: 450px) {
+					font-size: 15px;
+				}
+
+				@media (max-width: 349px) {
+					display: none;
+				}
+			}
+		}
+	}
+}
